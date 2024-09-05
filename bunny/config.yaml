@@ -1,0 +1,32 @@
+model_name_or_path: "BAAI/Bunny-v1_0-3B"
+beta: 0.1
+output_dir: null  # to be set by the script
+bf16: true
+fix_vit: true
+num_train_epochs: 3
+per_device_train_batch_size: 4
+per_device_eval_batch_size: 4
+gradient_accumulation_steps: 8
+# evaluation_strategy: "epoch"
+save_strategy: "epoch"
+save_total_limit: 1
+learning_rate: 0.00001
+weight_decay: 0.05
+adam_beta2: 0.98
+warmup_ratio: 0.1
+lr_scheduler_type: "cosine"
+logging_steps: 10
+report_to: wandb
+model_max_length: 2048
+gradient_checkpointing: true
+use_lora: true
+bf16: true
+tf32: true
+logging_first_step: true
+remove_unused_columns: false
+lora_r: 64  
+lora_alpha: 128 
+lora_target_modules: all-linear 
+dataset_path: ./data/vlfeedback_llava_10k.json
+run_name: mdpo_bunny
+output_dir: ./checkpoint/mdpo_bunny
