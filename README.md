@@ -13,6 +13,8 @@ Please check our [website](https://feiwang96.github.io/mDPO/) for an overview of
 TBD
 
 ## Training
+Our training data is available at [this link](https://huggingface.co/datasets/fwnlp/mDPO-preference-data).
+
 To train Bunny with mDPO, use the following command:
 ```bash
 python bunny/run_mdpo_bunny.py
