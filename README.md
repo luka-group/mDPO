@@ -1,8 +1,9 @@
 # Multimodal Direct Preference Optimization (mDPO)
 
-Code for our EMNLP 2024 paper [mDPO: Conditional Preference Optimization for Multimodal Large Language Models](https://arxiv.org/pdf/2406.11839). 
+[mDPO: Conditional Preference Optimization for Multimodal Large Language Models](https://arxiv.org/pdf/2406.11839) (published at EMNLP 2024).
 
-Please check our [website](https://feiwang96.github.io/mDPO/) for an overview of our work.
+[**🌐 Homepage**](https://feiwang96.github.io/mDPO/) | [**📖 Paper**](https://arxiv.org/pdf/2406.11839) | [**💻 Code**](https://github.com/luka-group/mDPO) | [**🤗 Dataset**](https://huggingface.co/datasets/fwnlp/mDPO-preference-data) 
+
 
 ![alt text](figures/image.png)
 
